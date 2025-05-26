@@ -1,0 +1,112 @@
+*{
+
+
+}
+body{
+   margin:0px
+}
+/* tete de page */
+header.header{
+   display: flex;
+   align-items: center;
+}
+
+header.header img{
+   width: 150px;
+}
+section.top-page {
+   background:url('../image/pngtree-creative-gradient-texture-light-purple-background-image_759298.jpg');
+   background-size:cover;
+height: 150vh;
+}
+
+
+
+/* page de bienvenue */
+
+
+.big-title{
+   color: white;
+   font-size: 80px;
+   padding:20px 50px
+}
+
+
+ /*menu de navigation  */
+
+ nav.nav{
+   display:flex;
+   justify-content: space-between;
+   list-style: none;
+   width: 400px;
+   margin-left: 30px;
+   
+ }
+
+ nav.nav li{
+   color:white;
+ }
+
+.outline {
+  margin-left: 40px;
+  position: relative;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+}
+
+.outline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: #bc63ff;
+  transition: width 0.3s;
+}
+
+.outline:hover::before {
+  width: 100%;
+}
+
+
+.paragraphe-color{
+   color:white;
+   font-size: 45px;
+}
+
+.display{
+   display: flex;
+   width:100%;
+   flex-direction:column;
+   justify-content: center;
+align-items: center;
+}
+.carousel-display{
+   display: flex;
+   flex-direction: row;
+}
+.acvrai{
+   width: -webkit-fill-available;
+}
+.ew{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.ew{
+   color: white;
+}
+.ew{
+   font-size:20px;
+}
+.center-navbar{
+   display: flex;
+ justify-content: center;
+ 
+}
+.IMG-LEFT{
+   display: flex;
+   justify-content: start;
+}
